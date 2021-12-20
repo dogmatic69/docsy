@@ -1,0 +1,104 @@
+[input]
+base_directory = "C:/Users/Path/to/docsy/userguide/content/en/"
+url_prefix = "https://docsy.dev/"
+
+[[input.files]]
+path = "_index.html"
+url = ""
+title = "Docsy Start Page"
+[[input.files]]
+path = "about/_index.md"
+url = "about/"
+title = "About Docsy"
+[[input.files]]
+path = "community/_index.md"
+url = "community/"
+title = "Docsy community"
+[[input.files]]
+path = "docs/_index.md"
+url = "docs/"
+title = "Docsy documentation"
+[[input.files]]
+path = "docs/Adding content/content.md"
+url = "docs/adding-content/content/"
+title = "Adding Content"
+[[input.files]]
+path = "docs/Adding content/feedback.md"
+url = "docs/adding-content/feedback/"
+title = "Analytics, User Feedback, SEO"
+[[input.files]]
+path = "docs/Adding content/iconsimages.md"
+url = "docs/adding-content/iconsimages/"
+title = "Logos and Images"
+[[input.files]]
+path = "docs/Adding content/lookandfeel.md"
+url = "docs/adding-content/lookandfeel/"
+title = "Look and Feel"
+[[input.files]]
+path = "docs/Adding content/navigation.md"
+url = "docs/adding-content/navigation/"
+title = "Navigation and Search"
+[[input.files]]
+path = "docs/Adding content/print.md"
+url = "docs/adding-content/print/"
+title = "Print Support"
+[[input.files]]
+path = "docs/Adding content/repository-links.md"
+url = "docs/adding-content/repository-links/"
+title = "Repository Links"
+[[input.files]]
+path = "docs/Adding content/taxonomy.md"
+url = "docs/adding-content/taxonomy/"
+title = "Taxonomy Support"
+[[input.files]]
+path = "docs/Adding content/versioning.md"
+url = "docs/adding-content/versioning/"
+title = "Document Versioning"
+[[input.files]]
+path = "docs/Adding content/diagrams-and-formulae/index.md"
+url = "docs/adding-content/diagrams-and-formulae/"
+title = "Diagrams and Formulae"
+[[input.files]]
+path = "docs/Adding content/Shortcodes/index.md"
+url = "docs/adding-content/shortcodes/"
+title = "Docsy Shortcodes"
+[[input.files]]
+path = "docs/Best practices/organizing-content.md"
+url = "docs/best-practices/organizing-content/"
+title = "Organizing Your Content"
+[[input.files]]
+path = "docs/Best practices/site-guidance.md"
+url = "docs/best-practices/site-guidance/"
+title = "Hugo Content Tips"
+[[input.files]]
+path = "docs/Best practices/_index.md"
+url = "docs/best-practices/"
+title = "Best Practices"
+[[input.files]]
+path = "docs/Contribution guidelines/_index.md"
+url = "docs/contribution-guidelines/"
+title = "Contribution Guidelines"
+[[input.files]]
+path = "docs/Deployment/_index.md"
+url = "docs/deployment/"
+title = "Previews and Deployment"
+[[input.files]]
+path = "docs/Examples/_index.md"
+url = "docs/examples/"
+title = "Productive sites that make use of Docsy"
+[[input.files]]
+path = "docs/Getting started/quickstart-docker.md"
+url = "docs/getting-started/quickstart-docker/"
+title = "Docker Quickstart"
+[[input.files]]
+path = "docs/Getting started/_index.md"
+url = "docs/getting-started/"
+title = "Getting Started"
+[[input.files]]
+path = "docs/Language/_index.md"
+url = "docs/language/"
+title = "Multi-language Support"
+[[input.files]]
+path = "docs/Updating/_index.md"
+url = "docs/updating/"
+title = "Updating Docsy theme"
