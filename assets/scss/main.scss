@@ -38,6 +38,7 @@ $display1-size: null !default;
 @import "taxonomy";
 @import "drawio";
 @import "shortcodes";
+@import "markmap";
 
 @if $td-enable-google-fonts {
   @import url($web-font-path);

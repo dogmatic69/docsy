@@ -117,8 +117,6 @@ params:
     svg: false
   print:
     disable_toc: false
-  markmap:
-    enable: true
   mermaid:
     theme: default
     flowchart:
