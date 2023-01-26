@@ -24,7 +24,7 @@ limitations under the License.
         if (!article) {
             return;
         }
-        var headings = article.querySelectorAll('h1, h2, h3, h4, h5, h6');
+        var headings = article.querySelectorAll('h1, h2:not(.accordion-header), h3, h4, h5, h6');
         headings.forEach(function (heading) {
             if (heading.id) {
                 var a = document.createElement('a');
