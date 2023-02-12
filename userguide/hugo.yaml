@@ -120,6 +120,7 @@ params:
   markmap:
     enable: true
   mermaid:
+    version: latest
     theme: default
     flowchart:
       diagramPadding: 20
