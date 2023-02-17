@@ -1,0 +1,19 @@
+{{ $version := cond ( ge hugo.Version "0.90.0" ) "latest" "1.8.3" -}}
+{{ with .Site.Params.lightbox.version -}}
+{{ $version = . -}}
+{{ end -}}
+
+{{ $cdnurl := printf "https://cdn.jsdelivr.net/npm/bs5-lightbox@%s/dist/index.bundle.min.js" $version -}}
+{{ if ge hugo.Version "0.90.0" -}}
+{{ $lightboxjs := resources.GetRemote $cdnurl -}}
+{{ if eq $lightboxjs nil -}}
+{{ errorf "Invalid bs5-lightbox version %s, could not retrieve this version from CDN." $version -}}
+{{ else -}}
+{{ $lightboxsecure := $lightboxjs | resources.Fingerprint "sha512" -}}
+<script type="text/javascript" src="{{ $lightboxsecure.Permalink }}" integrity="{{ $lightboxsecure.Data.Integrity -}}">
+</script>
+{{ end }}
+{{ else -}}
+<script src="{{- $cdnurl -}}" integrity="sha512-wOwwlvSeaATXscQHfDsAUnt3cBBvrKkyf7lI+k/88X6x/fxtc678fTdKRNcxZxtRdpzYFiIqqW5uIRUiPlZJlw==" crossorigin="anonymous"></script>
+{{ warnf "Outdated Hugo version %s, consider upgrading to make full use of all theme features." hugo.Version -}}
+{{ end -}}

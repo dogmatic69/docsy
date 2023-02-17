@@ -700,3 +700,5 @@ This text does not appear in the output if `buildCondition = "bar" is set in you
 ```
 
 If you are using this shortcode, note that when evaluating the conditions, substring matches are matches as well. That means, if you set `include-if="foobar"`, and `buildcondition = "foo"`, you have a match!
+
+{{< gallery >}}

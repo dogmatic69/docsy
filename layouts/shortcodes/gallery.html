@@ -1,0 +1,11 @@
+{{ .Page.Store.Set "haslightbox" true -}}
+
+{{ with .Page.Resources.ByType "image" }}
+    <ul>
+    {{ range . }}
+      <a href="{{- .Permalink -}}" data-toggle="lightbox">
+        <img src="{{- .Permalink -}}">
+      </a>
+    {{ end }}
+    </ul>
+{{ end }}
