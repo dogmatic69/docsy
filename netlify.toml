@@ -6,6 +6,7 @@ publish = "userguide/public"
 command = "npm run docs-install && npm run build:preview"
 
 [build.environment]
+NODE_VERSION = "18.14.2"
 GO_VERSION = "1.19.5"
 HUGO_THEME = "repo"
 
