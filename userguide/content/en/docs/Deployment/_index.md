@@ -148,7 +148,7 @@ Make sure to correctly set your site's `baseURL`, either via hugo's `--baseURL '
              - name: Setup Hugo
                uses: peaceiris/actions-hugo@v2
                with:
-                 hugo-version: '0.110.0'
+                 hugo-version: '0.111.2'
                  extended: true
     
              - name: Setup Node
