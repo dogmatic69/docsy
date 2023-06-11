@@ -6,5 +6,8 @@ github.com/google/docsy/dependencies v0.6.1-0.20230125095517-798c2504905e h1:lfv
 github.com/google/docsy/dependencies v0.6.1-0.20230125095517-798c2504905e/go.mod h1:qhtpynRkDn1FOmD1gj0a5n6ptDjDw0O4Zmb+6pfYUKU=
 github.com/google/docsy/dependencies v0.6.1-0.20230601182954-ff1818261e64 h1:ZBeOh/qGThEUn/r4vPXyfKXYKvMPmHgGS1BgQI8Xf2E=
 github.com/google/docsy/dependencies v0.6.1-0.20230601182954-ff1818261e64/go.mod h1:gihhs5gmgeO+wuoay4FwOzob+jYJVyQbNaQOh788lD4=
+github.com/google/docsy/dependencies v0.7.0/go.mod h1:gihhs5gmgeO+wuoay4FwOzob+jYJVyQbNaQOh788lD4=
 github.com/twbs/bootstrap v5.2.3+incompatible h1:lOmsJx587qfF7/gE7Vv4FxEofegyJlEACeVV+Mt7cgc=
 github.com/twbs/bootstrap v5.2.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
+github.com/twbs/bootstrap v5.3.0+incompatible h1:4+staADO0OrqUv77m+XL+vHYojLH9oxb4Vxi9mnIJWg=
+github.com/twbs/bootstrap v5.3.0+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
