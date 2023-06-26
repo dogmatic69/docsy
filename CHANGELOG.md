@@ -17,6 +17,11 @@ For a list of issues targeted for the next release, see the [23Q2][] milestone.
 **Other changes**:
 
 ## [0.7.1][]
+**Breaking changes**:
+
+- **Footer, copyright notice**:
+  - display of year can now be customized via .Site.Params.copyright.year
+  - title displayed after year must now be given via .Site.Params.copyright.title
 
 Followup changes to **Bootstrap (BS) 5.2 upgrade** ([#470]):
 
