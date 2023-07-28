@@ -187,7 +187,7 @@ hugo mod graph
 hugo: collected modules in 1092 ms
 github.com/me/my-existing-site github.com/google/docsy@v{{% param "version" %}}
 github.com/me/my-existing-site github.com/google/docsy/dependencies@v{{% param "version" %}}
-github.com/google/docsy/dependencies@v{{% param "version" %}} github.com/twbs/bootstrap@v5.3.0+incompatible
+github.com/google/docsy/dependencies@v{{% param "version" %}} github.com/twbs/bootstrap@v5.3.1+incompatible
 github.com/google/docsy/dependencies@v{{% param "version" %}} github.com/FortAwesome/Font-Awesome@v0.0.0-20230327165841-0698449d50f2
 ```
 
