@@ -60,7 +60,7 @@
     </ul>
   </div>
   <div class="d-none d-lg-block">
-    {{ partial "search-input.html" . }}
+    {{ partial "search-input.html" (dict “params” .Site.Params “index” 2) }}
   </div>
 </div>
 </nav>
